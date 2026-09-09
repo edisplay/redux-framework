@@ -4,7 +4,7 @@ Tags: admin, options, theme options, plugin options, options framework
 Requires at least: 5.3
 Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 4.5.13
+Stable tag: 4.5.14
 License: GPL-3.0+
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -121,6 +121,12 @@ NOTE: Redux is not intended to be used on its own. It requires a config file pro
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 4.5.14 =
+* Fixed: XSS vulnerabilities caused by lack of output escaping and validation.
+* Fixed: Position of save spinner
+* Fixed: #4108 - Fields hidden by `required` no longer validate.
+* Release date: September 07, 2026
 
 = 4.5.13 =
 * Fix: Reported privilege escalation vulnerability in `users` extension. Thanks, Jakub Herman.
