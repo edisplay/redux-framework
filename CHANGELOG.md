@@ -4,7 +4,7 @@
 * Fixed: XSS vulnerabilities caused by lack of output escaping and validation.
 * Fixed: Position of save spinner
 * Fixed: #4108 - Fields hidden by `required` no longer validate.
-* Release date: September 07, 2026
+* Release date: September 09, 2026
 
 ## 4.5.13
 * Fix: Reported privilege escalation vulnerability in `users` extension. Thanks, Jakub Herman.
